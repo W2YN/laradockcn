@@ -42,7 +42,8 @@ LaraDockCN主要是借鉴[LaraDockCN](https://github.com/LaraDock/laradock)引�
 ## Help & Questions
 
 欢迎拍砖：
-![](http://ww2.sinaimg.cn/large/3ce6af96jw1f51t3ayfxsj20iq0ow787.jpg)
+
+![](http://ww2.sinaimg.cn/mw690/3ce6af96jw1f51tam4ab4j20iq0ow787.jpg)
 
 
 ## License
