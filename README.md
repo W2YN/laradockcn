@@ -36,14 +36,17 @@ LaraDockCN主要是借鉴[LaraDockCN](https://github.com/LaraDock/laradock)引�
 	- ```dao pull neo4j:2.3```
 	- ```dao pull memcached:1.4.26```
 5. 最后使用和[LaraDockCN](https://github.com/LaraDock/laradock)一样，只需命令：```docker-compose up -d nginx mysql workspace```
+6. 修改apt-get下载源：
+  
+  ```RUN sed -i 's/http:\/\/archive\.ubuntu\.com\/ubuntu\//http:\/\/cn\.archive\.ubuntu\.com\/ubuntu\//g' /etc/apt/sources.list```
 
 
 
 ## Help & Questions
 
-欢迎拍砖：
+有问题，欢迎扫扫微信二维码来拍砖：
 
-![](http://ww2.sinaimg.cn/mw690/3ce6af96jw1f51tam4ab4j20iq0ow787.jpg)
+![](http://ww2.sinaimg.cn/large/3ce6af96jw1f51tji340rj209d0cggmz.jpg)
 
 
 ## License
