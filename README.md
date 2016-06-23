@@ -1,6 +1,6 @@
 # LaraDockCN
 
-LaraDockCN 完全从 [LaraDockCN](https://github.com/LaraDock/laradock)引用，结合国内[DaoCloud Docker 加速器](http://www.daocloud.io/)，将基于**docker**的**lavarel**开发提速.
+LaraDockCN 完全从 [LaraDock](https://github.com/LaraDock/laradock)引用，结合国内[DaoCloud Docker 加速器](http://www.daocloud.io/)，将基于**docker**的**lavarel**开发提速.
 
 
 ![](http://s18.postimg.org/fhykchl09/new_laradock_cover.png)
