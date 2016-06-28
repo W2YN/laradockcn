@@ -1,6 +1,9 @@
-FROM php:latest
+FROM daocloud.io/library/php:5.6.0-cli
 
 MAINTAINER Mahmoud Zalt <mahmoud@zalt.me>
+
+# 换源
+RUN sed -i 's/http:\/\/archive\.ubuntu\.com\/ubuntu\//http:\/\/cn\.archive\.ubuntu\.com\/ubuntu\//g' /etc/apt/sources.list
 
 RUN apt-get update && apt-get install -y curl
 
